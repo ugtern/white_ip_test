@@ -5,4 +5,4 @@ services:
    volumes:
      - .:/white_ip_test
    ports:
-     - "80:80"
+     - "8000:8000"
