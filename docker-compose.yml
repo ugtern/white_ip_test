@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+ web_app:
+   build: .
+   volumes:
+     - .:/white_ip_test
+   ports:
+     - "80:80"
