@@ -15,4 +15,4 @@ app = web.Application()
 aiohttp_jinja2.setup(app, loader=jinja2.FileSystemLoader(str(here)))
 app.router.add_get('/', index_handler)
 
-web.run_app(app, host='0.0.0.0', port=8000)
+web.run_app(app, host='0.0.0.0', port=80)
